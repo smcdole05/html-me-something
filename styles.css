@@ -61,21 +61,56 @@ ul,
 li {
     display: inline;
     margin: .5em;
+    margin-top: 1em;
     list-style-type: none;
+}
+
+a {
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
 }
 
 button {
     outline: none;
-    background-image: url(images/uh\ oh.jpg);
+    background-image: url(images/uh_oh.jpg);
     background-size: 7em;
-    background-position: center;
-    padding: 4px 8px;
-    color: white;
+    background-repeat: no-repeat;
+    background-position: 0% 22%;
+    opacity: .9;
+    width: 113px;
+    height: 40px;
+    margin-top: 2em;
     border: solid white;
     font-size: 1em;
-    line-height: 5em;
 
 }
+
+button, 
+span {
+  cursor: pointer;
+  display: inline block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button span:after {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover span {
+  opacity: .5;
+}
+
+button:hover span:after {
+  opacity: 1;
+  down: 0;
+}
+
 
 body {
     width: 100%;
@@ -88,7 +123,7 @@ body {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 4em;
   font-weight: bolder;
   margin: .5em;
 }
@@ -107,7 +142,6 @@ h2 {
 
 #sub-header {
   font-weight: normal;
-  padding-bottom: .5em;
 }
 
 .month {
@@ -118,7 +152,7 @@ article,
 header {
   padding: 2em;
   margin-top: 2em;
-  background-color: rgba(150, 235, 235, 0.747);
+  background-color: rgba(95, 208, 253, 0.87);
   border: .2em solid white;
   box-shadow: .3em .3em .5em grey;
 }
