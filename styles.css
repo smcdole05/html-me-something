@@ -66,9 +66,10 @@ li {
 
 button {
     outline: none;
-    background-image: url(images/Ollie.jpg);
+    background-image: url(images/uh\ oh.jpg);
     background-size: 7em;
     background-position: center;
+    padding: 4px 8px;
     color: white;
     border: solid white;
     font-size: 1em;
@@ -104,13 +105,13 @@ h2 {
     text-align: center;
 }
 
-.month {
-    text-decoration: underline;
-}
-
 #sub-header {
   font-weight: normal;
   padding-bottom: .5em;
+}
+
+.month {
+    text-decoration: underline;
 }
 
 article,
@@ -131,8 +132,8 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
+  margin-top: 1.5em;
+  margin-bottom: .3em;
   width: 50%;
   box-shadow: .2em .2em .5em grey;
 }
@@ -140,8 +141,6 @@ img {
 footer {
     padding: .5em;
     text-align: center;
-}
-
-footer {
     font-family: Georgia;
 }
+
