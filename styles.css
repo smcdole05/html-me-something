@@ -51,60 +51,83 @@ table {
 /* End normalize */
 
 
+header,
+main,
+footer {
+    background-color: rgba(156, 234, 240, 0.945);
+    font-size: 1.6em;
+}
+
+header {
+    text-align: center;
+}
+
+ul,
+li {
+    display: inline;
+    margin: .5em;
+    font-family: Georgia, serif;
+}
+
 body {
     width: 100%;
     max-width: 1024px;
     margin: 0 auto;
     font-size: 62.5%;
-    background-color: lightskyblue;
+    font-family: verdana;
+    background-color: #303e47;
+
     
-}
-
-
-header,
-main,
-footer {
-  background-color: lightblue;
-  font-size: 1.6em;
-}
-
-header {
-  text-align: center;
-}
-
-ul,
-li {
-  display: inline;
 }
 
 h1 {
   font-size: 2.4em;
-  padding: 10px;
+  font-weight: bolder;
+  font-family: Helvetica;
+  padding: 1em
+  
 }
 
-title {
+h2 {
+  font-size: 1.3em;
+  font-weight: bold;
+  padding-left: .8em;
+}
+
+#sub-header {
+  font-weight: normal;
+  padding-bottom: .5em;
+}
+
+title { 
   padding: 20px;
 } 
-
 
 header {
   padding-bottom: 40px;
 }
 
-h2 {
-  font-size: 1.3em;
+article {
+  padding: 2em;
+  border: .3em double lightcoral;
 }
 
-article {
-  padding: 20px;
-}
 p {
-    
+  margin: 1em;
+  line-height: 1.3em;
 }
 
 img {
-  padding-left: 50px;
-  padding-right: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 50%;
+}
+
+footer {
+    padding: .5em;
 }
 
 .month,
